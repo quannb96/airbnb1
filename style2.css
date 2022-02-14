@@ -1,0 +1,118 @@
+:root{
+    --grey-med: #ddd;
+    --grey-light: #f7f7f7;
+    --grey-text-light: #717171;
+    --grey-text-dark: #222;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Circular', sans-serif;
+}
+body{
+    color: rgb(34, 34, 34);
+    letter-spacing: normal;
+    line-height: 18px;
+    --webkit-font-smoothing: antialiased;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+header{
+    background: #fff;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.header-left .logo{
+    height: 32px;
+    padding-right: 160px;
+}
+.header-middle{
+    display: inline-flex;
+    height: 48px;
+    width: 300px;
+    padding: 0 0 0 8px;
+    border-radius: 24px;
+    overflow: hidden;
+    align-items: center;
+    border: 1px solid var(--grey-med);
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+.header-middle:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+
+}
+#littleSearch{
+    width: 250px;
+    height: 18px;
+    padding: 0 16px;
+    text-align: left;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header-middle .search-box{
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    margin: 7px 7px 7px 0;
+    border-radius: 50%;
+    background: #FF385C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-middle .search-box img{
+    width: 12px;
+    height: 12px;
+}
+.header-right a{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 17px;
+}
+.header-right button{
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.header-right .button-language{
+    padding: 13px 15px;
+}
+.header-right img{
+    width: 16px;
+    height: 16px;
+}
+.header-right .button-user{
+    justify-content: center;
+    border-radius: 22px;
+    border: 1px solid #ccc;
+    padding: 5px 5px 5px 12px;
+}
+.header-right .button-user img{
+    height: 16px;
+    width: 16px;
+}
+.header-right .button-user .user-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
